@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B69E1A926AA4FF10072C910 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69E1A826AA4FF10072C910 /* CameraViewController.swift */; };
+		7B69E1AD26AA531D0072C910 /* Ballinese.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B69E1AC26AA531C0072C910 /* Ballinese.ttf */; };
+		7B69E1AE26AA531D0072C910 /* Ballinese.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B69E1AC26AA531C0072C910 /* Ballinese.ttf */; };
+		7B69E1AF26AA531D0072C910 /* Ballinese.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B69E1AC26AA531C0072C910 /* Ballinese.ttf */; };
 		7B7316C226A7DC620036A904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316C126A7DC620036A904 /* AppDelegate.swift */; };
 		7B7316C426A7DC620036A904 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316C326A7DC620036A904 /* SceneDelegate.swift */; };
 		7B7316C626A7DC620036A904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316C526A7DC620036A904 /* ViewController.swift */; };
@@ -16,6 +20,8 @@
 		7B7316D126A7DC670036A904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B7316CF26A7DC670036A904 /* LaunchScreen.storyboard */; };
 		7B7316DC26A7DC680036A904 /* esteeLauderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316DB26A7DC680036A904 /* esteeLauderTests.swift */; };
 		7B7316E726A7DC680036A904 /* esteeLauderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316E626A7DC680036A904 /* esteeLauderUITests.swift */; };
+		7B7316F526A7FE9F0036A904 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316F426A7FE9F0036A904 /* HomePageViewController.swift */; };
+		7B7316F926A80A810036A904 /* MeetEssentialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7316F826A80A810036A904 /* MeetEssentialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B69E1A826AA4FF10072C910 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		7B69E1AC26AA531C0072C910 /* Ballinese.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ballinese.ttf; sourceTree = "<group>"; };
 		7B7316BE26A7DC620036A904 /* esteeLauder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esteeLauder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7316C126A7DC620036A904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B7316C326A7DC620036A904 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,8 @@
 		7B7316E226A7DC680036A904 /* esteeLauderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = esteeLauderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7316E626A7DC680036A904 /* esteeLauderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esteeLauderUITests.swift; sourceTree = "<group>"; };
 		7B7316E826A7DC680036A904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B7316F426A7FE9F0036A904 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		7B7316F826A80A810036A904 /* MeetEssentialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetEssentialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,10 @@
 				7B7316C326A7DC620036A904 /* SceneDelegate.swift */,
 				7B7316C526A7DC620036A904 /* ViewController.swift */,
 				7B7316C726A7DC620036A904 /* Main.storyboard */,
+				7B69E1AC26AA531C0072C910 /* Ballinese.ttf */,
+				7B69E1A826AA4FF10072C910 /* CameraViewController.swift */,
+				7B7316F826A80A810036A904 /* MeetEssentialViewController.swift */,
+				7B7316F426A7FE9F0036A904 /* HomePageViewController.swift */,
 				7B7316CD26A7DC670036A904 /* Assets.xcassets */,
 				7B7316CF26A7DC670036A904 /* LaunchScreen.storyboard */,
 				7B7316D226A7DC670036A904 /* Info.plist */,
@@ -234,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B69E1AD26AA531D0072C910 /* Ballinese.ttf in Resources */,
 				7B7316D126A7DC670036A904 /* LaunchScreen.storyboard in Resources */,
 				7B7316CE26A7DC670036A904 /* Assets.xcassets in Resources */,
 				7B7316C926A7DC620036A904 /* Main.storyboard in Resources */,
@@ -244,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B69E1AE26AA531D0072C910 /* Ballinese.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B69E1AF26AA531D0072C910 /* Ballinese.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +281,10 @@
 				7B7316C626A7DC620036A904 /* ViewController.swift in Sources */,
 				7B7316C226A7DC620036A904 /* AppDelegate.swift in Sources */,
 				7B7316C426A7DC620036A904 /* SceneDelegate.swift in Sources */,
+				7B7316F526A7FE9F0036A904 /* HomePageViewController.swift in Sources */,
+				7B7316F926A80A810036A904 /* MeetEssentialViewController.swift in Sources */,
 				7B7316CC26A7DC620036A904 /* esteeLauder.xcdatamodeld in Sources */,
+				7B69E1A926AA4FF10072C910 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
